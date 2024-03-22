@@ -1,4 +1,5 @@
 // Code your solution in this file!
+//Question 1
 function distanceFromHqInBlocks(pickupLocation) {
     const hqLocation = 42;
   
@@ -12,6 +13,7 @@ function distanceFromHqInBlocks(pickupLocation) {
   console.log(
     'The pickup location is ${blocksToHq} blocks away from  Scuber headquarter.'
   );
+  //Question 2
   function distanceFromHqInBlocks(pickupLocation) {
       // Scuber's headquarters is at a fixed location (let's say block number 42)
       const hqLocation = 42;
@@ -32,25 +34,21 @@ function distanceFromHqInBlocks(pickupLocation) {
 
     return feetToHq;
 }
-
-// Example usage:
 const pickUpBlock= 30; // Replace with the actual pickup block number
 const feetToHq = distanceFromHqInFeet(pickupBlock);
-console.log('The pickup location is approximately $ {feetToHq} feet away from Scuber headquarter.');
+console.log('The pickup location is approximately $ {feetToHq} feet away from Scuber headquarter.}');
 function distanceTravelledInFeet(start, destination) {
     // Calculate the difference in blocks
-    const blockDifference = Math.abs(destination - start);
+    const blockDifference = Math.abs(destination - start);  {}
 
     // Each block is 264 feet long
     const feetPerBlock = 264;
 
     // Calculate the total distance in feet
     const totalDistanceFeet = blockDifference * feetPerBlock;
-
-    return totalDistanceFeet;
+return totalDistanceFeet;
 }
-
-// Example usage:
+//Question 2
 const startBlock = 34;
 const endBlock = 38;
 const distance = distanceTravelledInFeet(startBlock, endBlock);
@@ -79,8 +77,7 @@ function calculatesFarePrice(start, destination) {
         return 'cannot travel that far'; // Distance exceeds 2500 feet
     }
 }
-
-// Example usage:
+//Question 4
 const StartBlock = 34;
 const EndBlock = 38;
 const fare = calculatesFarePrice(startBlock, endBlock);
